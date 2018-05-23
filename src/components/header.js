@@ -129,6 +129,7 @@ class Header extends Component {
             opacity: 0.3,
           }}
           sizes={data.background.sizes}
+          alt="GCP Logo"
         />
       </HeaderWrapper>
     );
