@@ -3,7 +3,7 @@ module.exports = {
     title: 'GCP Blog',
     desc: 'A fake blog for GCP built with GatsbyJS',
   },
-  pathPrefix: '/levelupgatsby',
+
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
@@ -30,5 +30,8 @@ module.exports = {
 
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-netlify-cms',
   ],
 };
+
+// pathPrefix: '/levelupgatsby'
